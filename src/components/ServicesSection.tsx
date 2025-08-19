@@ -4,40 +4,28 @@ import { Video, Scissors, Palette, Camera, Music, Zap } from "lucide-react"
 
 const services = [
   {
-    icon: Video,
-    title: "Video Editing",
-    description: "Professional editing for commercials, documentaries, and social media content with cinematic precision.",
-    features: ["Color Grading", "Audio Mixing", "Motion Graphics", "4K/8K Support"]
-  },
-  {
     icon: Scissors,
-    title: "Post-Production",
-    description: "Complete post-production workflow from rough cuts to final delivery across all platforms.",
-    features: ["Visual Effects", "Sound Design", "Subtitle Creation", "Format Optimization"]
+    title: "CUT",
+    description: "Precise storytelling through expert editing. Every frame matters, every cut has purpose.",
+    features: ["Narrative Flow", "Pacing Control", "Seamless Transitions", "Story Structure"]
   },
   {
     icon: Palette,
-    title: "Motion Graphics",
-    description: "Eye-catching animations and graphics that enhance your storytelling and brand identity.",
-    features: ["2D/3D Animation", "Logo Animation", "Infographics", "Title Sequences"]
-  },
-  {
-    icon: Camera,
-    title: "Color Grading",
-    description: "Professional color correction and grading to establish mood and enhance visual storytelling.",
-    features: ["Cinematic Looks", "Brand Consistency", "HDR Grading", "Film Emulation"]
-  },
-  {
-    icon: Music,
-    title: "Audio Production",
-    description: "Crystal-clear audio mixing, mastering, and sound design for immersive experiences.",
-    features: ["Audio Cleanup", "Music Mixing", "Foley Effects", "Dolby Atmos"]
+    title: "COLOR",
+    description: "Cinematic color grading that sets the mood and enhances your visual narrative.",
+    features: ["LUT Creation", "Skin Tone Matching", "Creative Looks", "HDR Workflow"]
   },
   {
     icon: Zap,
-    title: "Express Delivery",
-    description: "Rush services for time-sensitive projects without compromising on quality.",
-    features: ["24-hour delivery", "Real-time previews", "Priority support", "Revision cycles"]
+    title: "MOTION",
+    description: "Dynamic motion graphics and visual effects that bring your content to life.",
+    features: ["2D/3D Animation", "Logo Reveals", "Text Animation", "VFX Integration"]
+  },
+  {
+    icon: Music,
+    title: "SOUND",
+    description: "Immersive audio design that completes the emotional journey of your content.",
+    features: ["Audio Mixing", "Sound Design", "Music Selection", "Voice Processing"]
   }
 ]
 
@@ -54,7 +42,7 @@ const ServicesSection = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <Card 
               key={index} 
