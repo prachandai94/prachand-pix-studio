@@ -18,7 +18,7 @@ const HeroSection = () => {
             <img src={prachnadLogo} alt="Prachand Logo" className="h-16 md:h-20 mx-auto opacity-90 hover:opacity-100 transition-opacity filter brightness-150" />
           </div>
           
-          <h1 className="text-6xl font-mono mb-6 leading-tight font-bold md:text-8xl">
+          <h1 className="text-4xl font-poppins mb-6 leading-tight font-bold md:text-6xl">
             <span className="text-primary font-black tracking-tight [text-shadow:_2px_2px_0px_hsl(var(--accent)),_4px_4px_0px_hsl(var(--primary)/0.3)] transform hover:scale-105 transition-transform">
               YOUR SEARCH FOR EDITORS STOPS HERE!
             </span>
