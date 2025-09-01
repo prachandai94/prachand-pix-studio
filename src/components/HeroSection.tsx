@@ -25,7 +25,7 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-6xl md:text-8xl font-playfair font-bold mb-6 leading-tight">
-            <span className="bg-gradient-hero bg-clip-text text-transparent animate-glow drop-shadow-lg">
+            <span className="text-white drop-shadow-2xl [text-shadow:_0_0_20px_rgb(255_255_255_/_40%),_0_0_40px_rgb(239_68_68_/_30%)] font-black tracking-tight">
               Your Search For Editors Stops Here!
             </span>
           </h1>
