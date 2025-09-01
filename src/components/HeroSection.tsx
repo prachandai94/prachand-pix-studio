@@ -20,7 +20,7 @@ const HeroSection = () => {
           
           <h1 className="text-6xl font-mono mb-6 leading-tight font-bold md:text-8xl">
             <span className="text-primary font-black tracking-tight [text-shadow:_2px_2px_0px_hsl(var(--accent)),_4px_4px_0px_hsl(var(--primary)/0.3)] transform hover:scale-105 transition-transform">
-              Your Search For Editors Stops Here!
+              YOUR SEARCH FOR EDITORS STOPS HERE!
             </span>
           </h1>
           
