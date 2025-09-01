@@ -6,20 +6,20 @@ const services = [
   {
     icon: Scissors,
     title: "CUT",
-    description: "Precise storytelling through expert editing. Every frame matters, every cut has purpose.",
-    features: ["Narrative Flow", "Pacing Control", "Seamless Transitions", "Story Structure"]
+    description: "Precise storytelling through expert editing with focus on ad reels and branded content. Every frame matters, every cut has purpose.",
+    features: ["Ad Reels", "Branded Content", "Seamless Transitions", "Story Structure"]
   },
   {
     icon: Zap,
-    title: "MOTION",
-    description: "Dynamic motion graphics and visual effects that bring your content to life.",
-    features: ["2D/3D Animation", "Logo Reveals", "Text Animation", "VFX Integration"]
+    title: "MOTION GRAPHICS",
+    description: "Dynamic motion graphics and visual storytelling that captivate and engage your audience.",
+    features: ["2D/3D Animation", "Logo Reveals", "Text Animation", "Brand Motion"]
   },
   {
     icon: Sparkles,
     title: "VFX & CGI",
-    description: "High-end visual effects and computer graphics that create impossible realities.",
-    features: ["3D Modeling", "Compositing", "Green Screen", "Digital Environments"]
+    description: "High-end visual effects, cleanup work, and product animations that create polished, professional results.",
+    features: ["Cleanup & Restoration", "Product Animations", "Compositing", "Digital Enhancement"]
   }
 ]
 
@@ -65,9 +65,6 @@ const ServicesSection = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="glass" className="w-full group-hover:variant-hero">
-                  Learn More
-                </Button>
               </CardContent>
             </Card>
           ))}

@@ -1,7 +1,7 @@
 import HeroSection from "@/components/HeroSection"
 import ServicesSection from "@/components/ServicesSection"
 import ShowcaseSection from "@/components/ShowcaseSection"
-import UnlimitedWorkSection from "@/components/UnlimitedWorkSection"
+import DownloadBrochureSection from "@/components/DownloadBrochureSection"
 import CTASection from "@/components/CTASection"
 
 const Index = () => {
@@ -10,7 +10,7 @@ const Index = () => {
       <HeroSection />
       <ServicesSection />
       <ShowcaseSection />
-      <UnlimitedWorkSection />
+      <DownloadBrochureSection />
       <CTASection />
     </div>
   );
