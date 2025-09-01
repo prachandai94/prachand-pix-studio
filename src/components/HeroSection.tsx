@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/enhanced-button"
 import { Play, Film } from "lucide-react"
 import heroImage from "@/assets/hero-bg.jpg"
-import prachnadLogo from "@/assets/prachand-logo.png"
+import prachnadLogo from "/lovable-uploads/92328d8a-a82a-4b43-95f3-de8acad42ca7.png"
 
 const HeroSection = () => {
   return (
