@@ -1,12 +1,10 @@
-import { Button } from "@/components/ui/enhanced-button"
-import { Play, Film } from "lucide-react"
-import heroImage from "@/assets/hero-bg.jpg"
-import prachnadLogo from "/lovable-uploads/92328d8a-a82a-4b43-95f3-de8acad42ca7.png"
-import ParticleAnimation from "./ParticleAnimation"
-
+import { Button } from "@/components/ui/enhanced-button";
+import { Play, Film } from "lucide-react";
+import heroImage from "@/assets/hero-bg.jpg";
+import prachnadLogo from "/lovable-uploads/92328d8a-a82a-4b43-95f3-de8acad42ca7.png";
+import ParticleAnimation from "./ParticleAnimation";
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
       {/* Particle Animation Background */}
       <ParticleAnimation />
       
@@ -17,14 +15,10 @@ const HeroSection = () => {
       <div className="relative z-20 container mx-auto px-6 py-20">
         <div className="text-center max-w-4xl mx-auto">
           <div className="mb-8">
-            <img 
-              src={prachnadLogo} 
-              alt="Prachand Logo" 
-              className="h-16 md:h-20 mx-auto opacity-90 hover:opacity-100 transition-opacity filter brightness-150"
-            />
+            <img src={prachnadLogo} alt="Prachand Logo" className="h-16 md:h-20 mx-auto opacity-90 hover:opacity-100 transition-opacity filter brightness-150" />
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-playfair font-bold mb-6 leading-tight">
+          <h1 className="text-6xl font-playfair mb-6 leading-tight font-bold md:text-8xl">
             <span className="text-white drop-shadow-2xl [text-shadow:_0_0_20px_rgb(255_255_255_/_40%),_0_0_40px_rgb(239_68_68_/_30%)] font-black tracking-tight">
               Your Search For Editors Stops Here!
             </span>
@@ -47,8 +41,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  )
-}
-
-export default HeroSection
+    </section>;
+};
+export default HeroSection;
