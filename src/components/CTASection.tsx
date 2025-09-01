@@ -25,19 +25,26 @@ const CTASection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Button variant="hero" size="xl" className="group">
-              <MessageCircle className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-              Get Free Consultation
-              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
             <Button variant="silver" size="xl">
               View Our Portfolio
             </Button>
-          </div>
-          
-          <div className="mt-12 p-6 bg-gradient-glass backdrop-blur-md rounded-2xl border border-white/10 inline-block">
-            <p className="text-sm text-muted-foreground mb-2">✨ Special Offer</p>
-            <p className="font-semibold">20% off your first project - Limited time only!</p>
+            <Button 
+              variant="hero" 
+              size="xl" 
+              className="group bg-[#25D366] hover:bg-[#128C7E] text-white border-0"
+              asChild
+            >
+              <a 
+                href="https://wa.me/your-whatsapp-number" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center"
+              >
+                <MessageCircle className="w-5 h-5 mr-2 group-hover:animate-pulse" />
+                Chat Here Faster
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </a>
+            </Button>
           </div>
         </div>
       </div>

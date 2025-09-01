@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/enhanced-button"
-import { Video, Scissors, Palette, Camera, Music, Zap } from "lucide-react"
+import { Scissors, Zap, Sparkles } from "lucide-react"
 
 const services = [
   {
@@ -10,22 +10,16 @@ const services = [
     features: ["Narrative Flow", "Pacing Control", "Seamless Transitions", "Story Structure"]
   },
   {
-    icon: Palette,
-    title: "COLOR",
-    description: "Cinematic color grading that sets the mood and enhances your visual narrative.",
-    features: ["LUT Creation", "Skin Tone Matching", "Creative Looks", "HDR Workflow"]
-  },
-  {
     icon: Zap,
     title: "MOTION",
     description: "Dynamic motion graphics and visual effects that bring your content to life.",
     features: ["2D/3D Animation", "Logo Reveals", "Text Animation", "VFX Integration"]
   },
   {
-    icon: Music,
-    title: "SOUND",
-    description: "Immersive audio design that completes the emotional journey of your content.",
-    features: ["Audio Mixing", "Sound Design", "Music Selection", "Voice Processing"]
+    icon: Sparkles,
+    title: "VFX & CGI",
+    description: "High-end visual effects and computer graphics that create impossible realities.",
+    features: ["3D Modeling", "Compositing", "Green Screen", "Digital Environments"]
   }
 ]
 
@@ -38,11 +32,14 @@ const ServicesSection = () => {
             Our <span className="bg-gradient-primary bg-clip-text text-transparent">Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive video production services designed to elevate your content and engage your audience
+            Comprehensive post production services designed to elevate your content
+          </p>
+          <p className="text-lg text-muted-foreground/80 max-w-2xl mx-auto mt-4 italic">
+            Editors are abundant when you work with pixels. Brand consistency is followed, and no hassles with creative blocks.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card 
               key={index} 

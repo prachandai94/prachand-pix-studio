@@ -21,7 +21,7 @@ const ShowcaseSection = () => {
           <Card className="group bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-all duration-300">
             <CardHeader className="text-center">
               <CardTitle className="text-2xl font-semibold bg-gradient-primary bg-clip-text text-transparent">
-                Vertical Content
+                Vertical Showreel
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -49,7 +49,7 @@ const ShowcaseSection = () => {
           <Card className="group bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-all duration-300">
             <CardHeader className="text-center">
               <CardTitle className="text-2xl font-semibold bg-gradient-silver bg-clip-text text-transparent">
-                Horizontal Content
+                Horizontal Showreel
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
